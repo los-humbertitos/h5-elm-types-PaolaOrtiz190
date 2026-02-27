@@ -12,7 +12,7 @@ gradeToStatus grade =
     if grade < 0 then
         Pending
 
-    else if grade > 7 then
+    else if grade >= 7 then
         Approved
 
     else
